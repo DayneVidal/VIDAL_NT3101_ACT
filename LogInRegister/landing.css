@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #234f70;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.hero {
+    height: 90vh;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.45),
+            rgba(255, 255, 255, 0.45)
+        ),
+        url("landing.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #1d3b55;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #34495e;
+}
+
+.btn-custom {
+    background-color: #3578c4;
+    color: white;
+    border: none;
+
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #245f9d;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        height: 90vh;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
